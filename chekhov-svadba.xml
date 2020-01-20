@@ -114,6 +114,14 @@
             <persName xml:lang="en">Revunov</persName>
             <persName xml:lang="de">Revunov</persName>
           </person>
+          
+          <listRelation type='personal'>
+            <relation name="parent_of" active="#Zhigalov" passive="#Dashenka"/>
+            <relation name="parent_of" active="#NastasjaTimofeevna" passive="#Dashenka"/>
+            <relation name="spouses" mutual="#Zhigalov #NastasjaTimofeevna"/>
+            <relation name="lover_of" active="#Aplombov" passive="#Dashenka"/>
+          </listRelation>   
+            
         </listPerson>
       </particDesc>
       <textClass>
