@@ -112,7 +112,14 @@
             <persName xml:lang="en">Semen</persName>
             <persName xml:lang="de">Semen</persName>
           </person>
-        </listPerson>
+        <listRelation type="personal">
+            <relation name="parent_of" active="#Serebrjakov" passive="#Sonja"/>
+            <relation name="related_with" active="#Zheltuhin" passive="#Julja"/>
+            <relation name="associated_with" active="#Zheltuhin" passive="#Vasilij"/> 
+            <relation name="spouses" mutual="#ElenaAndreevna"#"Serebrjakov"/>
+            <relation name="parent_of" active="#Orlovskij"= passive="#FedorIvanovich"/>
+            <relation name="parent_of" active="#MarjaVasilevna" passive="#Vojnitskija"/>
+            </listPerson>
       </particDesc>
       <textClass>
         <keywords>
