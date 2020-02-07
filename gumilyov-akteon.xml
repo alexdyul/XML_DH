@@ -50,7 +50,7 @@
           <person xml:id="Ehion" sex="MALE">
             <persName>Эхион</persName>
           </person>
-          <person xml:id="Agava" sex="MALE">
+          <person xml:id="Agava" sex="FEMALE">
             <persName>Агава</persName>
           </person>
           <person xml:id="Akteon" sex="MALE">
@@ -89,6 +89,14 @@
           <person xml:id="TretijPes" sex="MALE">
             <persName>Третий</persName>
           </person>
+          
+          <listRelation type='personal'>
+            <relation name="parent_of" active="#Kadm" passive="#Akteon"/>
+            <relation name="friends" mutual="#Ehion #Kadm"/>
+            <relation name='associated_with' active='#Ehion' passive='#Kadm'/>
+            <relation name='spouses' mutual='#Agava #Ehion'/>    
+          </listRelation>
+            
         </listPerson>
       </particDesc>
       <textClass>
