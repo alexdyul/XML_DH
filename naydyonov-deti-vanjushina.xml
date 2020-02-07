@@ -96,6 +96,18 @@
           <person xml:id="starik_v_lohmotjah" sex="MALE">
             <persName>Старик в лохмотьях</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#kukarnikova" passive="#inna"/>
+            <relation name="related_with" active="#vanjushin" passive="#lena"/>
+            <relation name="associated_with" active="#akulina" passive="#vanjushin"/>
+            <relation name="associated_with" active="#avdotja" passive="#vanjushin"/>
+            <relation name="spouses" mutual="#vanjushin #arina_ivanovna"/>
+            <relation name="spouses" mutual="#schetkin #klavdija"/>
+            <relation name="spouses" mutual="#krasavin #ljudmila"/>
+            <relation name="siblings" mutual="#konstantin #aleksej #klavdija #ljudmila #anja #katja"/>
+            <relation name="parent_of" active="#arina_ivanovna" passive="#konstantin #aleksej #klavdija #ljudmila #anja #katja"/>
+            <relation name="parent_of" active="#vanjushin" passive="#konstantin #aleksej #klavdija #ljudmila #anja #katja"/>
+</listRelation>
         </listPerson>
       </particDesc>
       <textClass>
