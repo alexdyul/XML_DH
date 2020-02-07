@@ -82,6 +82,13 @@
           <person xml:id="anisja" sex="FEMALE">
             <persName>Анисья</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#vassa" passive="#anna #semen #pavel"/>
+            <relation name="siblings" mutual="#anna #semen #pavel"/>
+            <relation name="spouses" mutual="#semen #natalja"/>
+            <relation name="spouses" mutual="#pavel #ljudmila"/>
+            <relation name="related_with" active="#dunja" passive="#vassa #anna #semen #pavel"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
